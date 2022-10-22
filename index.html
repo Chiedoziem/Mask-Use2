@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    
+   <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <center>
+            <div id="si2">
+                 <h1>Mask Identification</h1>
+        <h2>In  order to log into the system, you must make sure you are wearing a mask at all times</h2>
+            </div>
+             
+        </center>
+      
+        <center>
+<div id="cameraholder">
+    <label>Your webcam</label>        
+            <div id="camera">
+                
+            </div>    
+</div>
+                        
+<button onclick="take_snapshot()" class="button">Take Photo</button>
+
+<div id="result_object_name"></div>
+<button onclick="check()" class="btn btn-info">Determine</button>
+<div id="si">
+    <h1 id="denied"></h1>
+</div>
+
+
+        </center>
+        
+<script src="main.js"></script>
+    </body>
+</html>

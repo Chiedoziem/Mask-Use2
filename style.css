@@ -1,0 +1,46 @@
+#si{
+    background-color: black;
+    border-radius: 20px;
+    width: 200;
+    height: 80;
+
+}
+#denied{
+    color: white;
+}
+#si2{
+    background-color: black;
+    border-radius: 20px;
+    width: 600;
+    height: 200;
+ 
+}
+h1{
+    color: white;
+    
+}
+h2{
+    color: aquamarine;
+}
+body{
+
+    background-color: burlywood;
+}
+#cameraholder{
+background-color: black;
+border-radius: 20px;
+border-color: gray;
+width:400;
+height: 400;
+border-width: 20px;
+}
+label{
+    color: white;
+}
+.button{
+    background-color: yellow;
+    border-radius: 10px;
+    border-width: 0px;
+    width: 100px;
+    height: 30px;
+}
